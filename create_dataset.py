@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings(action='ignore')
 
-mozilla_basepath = "content/drive/My Drive/Projet3/datasets/en"
+mozilla_basepath = "/content"
 urbansound_basepath = "content/drive/My Drive/Projet3/datasets/UrbanSound8K"
 
 mcv = MozillaCommonVoiceDataset(mozilla_basepath, val_dataset_size=1000)
